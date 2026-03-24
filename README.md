@@ -54,26 +54,26 @@ https://preana-fo.ece.stonybrook.edu/database.html
 ├── src/
 ├── requirements.txt
 └── README.md
-
----
+```
 
 ## Installation
 
-Run the main pipeline:
+Install the required Python packages:
 
-python scripts/run_ocgp_pipeline.py
+pip install -r requirements.txt
 
 ---
 
 ## How to Run
 
-Run the main pipeline:
+To run the full pipeline:
 
 python scripts/run_ocgp_pipeline.py
 
 ### Notes
 - Update the input file path inside the script
 - Input should be a tabular file with a `cat` column
+- Each row should correspond to one FHR segment
 - Results are saved in the `results/` folder
 
 ---
