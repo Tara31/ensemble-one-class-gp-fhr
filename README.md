@@ -69,3 +69,10 @@ Install required Python packages:
 
 ```bash
 pip install -r requirements.txt
+
+---
+
+## Author
+
+Taraneh Ghanbari Azarnir  
+PhD Candidate, Electrical Engineering, Stony Brook University
