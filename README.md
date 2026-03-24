@@ -66,3 +66,11 @@ Expected input format:
     │   └── README.md              # Data instructions
     ├── requirements.txt
     └── README.md
+---
+
+## Installation
+
+Install required Python packages:
+
+```bash
+pip install -r requirements.txt
