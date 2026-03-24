@@ -72,6 +72,15 @@ pip install -r requirements.txt
 
 ---
 
+## How to Run
+
+After installing the dependencies, you can run the main pipeline script:
+
+```bash
+python scripts/run_ocgp_pipeline.py
+
+---
+
 ## Author
 
 Taraneh Ghanbari Azarnir  
