@@ -46,6 +46,7 @@ We use a publicly available fetal monitoring dataset:
 
 Expected input format:
 - Tabular feature file (e.g., Excel)
+- Each row corresponds to a 10-minute FHR segment
 - Column: `cat`
   - `CAT-1` → healthy
   - `CAT-3` → pathological
@@ -54,18 +55,18 @@ Expected input format:
 
 ## Project Structure
 
-    .
-    ├── scripts/
-    │   └── run_ocgp_pipeline.py   # Main pipeline
-    ├── data/
-    │   └── README.md              # Data instructions
-    ├── requirements.txt
-    └── README.md
----
+.
+├── scripts/  
+│   └── run_ocgp_pipeline.py   # Main pipeline  
+├── data/  
+│   └── README.md              # Data instructions  
+├── results/                   # Output results (generated)  
+├── requirements.txt  
+└── README.md  
 
 ## Installation
 
-Install required Python packages:
+Install the required Python packages:
 
 ```bash
 pip install -r requirements.txt
@@ -76,7 +77,6 @@ pip install -r requirements.txt
 
 After installing the dependencies, you can run the main pipeline script:
 
-```bash
 python scripts/run_ocgp_pipeline.py
 
 ---
@@ -86,3 +86,5 @@ python scripts/run_ocgp_pipeline.py
 Taraneh Ghanbari Azarnir  
 PhD Candidate, Electrical Engineering  
 Stony Brook University
+
+For questions or collaboration, feel free to reach out.
