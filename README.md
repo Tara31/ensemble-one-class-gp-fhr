@@ -1,10 +1,5 @@
 # Ensemble One-Class Gaussian Processes for Fetal Heart Rate Anomaly Detection
-
-This repository contains the implementation of the method proposed in our ICASSP 2026 paper:
-
-**“Ensemble One-Class Gaussian Processes for Fetal Heart Rate Anomaly Detection”**
-
----
+--
 
 ## Overview
 
