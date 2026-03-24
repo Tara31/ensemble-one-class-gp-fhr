@@ -58,3 +58,11 @@ Expected input format:
 ---
 
 ## Project Structure
+
+    .
+    ├── scripts/
+    │   └── run_ocgp_pipeline.py   # Main pipeline
+    ├── data/
+    │   └── README.md              # Data instructions
+    ├── requirements.txt
+    └── README.md
